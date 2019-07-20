@@ -7,29 +7,34 @@ import org.apache.log4j.Logger;
 import com.test.automation.testBase.TestBase;
 import com.test.automation.objectrepo.*;
 
-public class FavVideo extends TestBase{
+public class FavVideo extends TestBase {
 	FavouriteList homepage;
-	public static Logger log=Logger.getLogger(FavVideo.class.getName());
-  @Test
-  public void AddTwoVideos() {
-	  homepage = new FavouriteList(driver);//initializing driver through pagefactory
-	  homepage.lnkmore.click();
-	  homepage.lnkmyvideos.click();
-	 
-	  for (String handle : driver.getWindowHandles()) {
-		  
-		    driver.switchTo().window(handle);}
-	  
-	  homepage.lnkvideos.click();
-  }
-  @BeforeTest
+	public static Logger log = Logger.getLogger(FavVideo.class.getName());
+
+	@Test
+	public void AddTwoVideos() {
+		homepage = new FavouriteList(driver);// initializing driver through pagefactory
+												
+		homepage.lnkmore.click();
+		homepage.lnkmyvideos.click();
+
+		for (String handle : driver.getWindowHandles()) {
+
+			driver.switchTo().window(handle);
+		}
+
+		String strtext=homepage.btnplusfavorites.getText();
+		System.out.println(strtext);
+	}
+
+	@BeforeTest
 	void setup() {
-	   init();
+		init();
 		log.info("***************initialization done************");
 	}
 
-  @AfterMethod
-  public void afterMethod() {
-  }
+	@AfterMethod
+	public void afterMethod() {
+	}
 
 }

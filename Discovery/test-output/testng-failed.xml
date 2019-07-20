@@ -5,9 +5,12 @@
     <classes>
       <class name="Discovery.Discovery.FavVideo">
         <methods>
+          <include name="afterMethod"/>
+          <include name="AddTwoVideos"/>
           <include name="endtest"/>
-          <include name="f"/>
           <include name="setup"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
         </methods>
       </class> <!-- Discovery.Discovery.FavVideo -->
     </classes>
