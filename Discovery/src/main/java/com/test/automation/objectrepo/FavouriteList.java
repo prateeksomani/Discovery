@@ -25,4 +25,10 @@ public class FavouriteList {
 
 	@FindBy(xpath = "//div[@class='my-favorites-button-container']//i[contains(@class,'plus')]")
 	public WebElement btnplusfavorites;
+	
+	@FindBy(xpath = "//div[@class='showTileSquare__content']")
+	public WebElement show;
+	
+	@FindBy(xpath="//span[contains(text(),'Watch')]")
+	public WebElement watch;
 }
