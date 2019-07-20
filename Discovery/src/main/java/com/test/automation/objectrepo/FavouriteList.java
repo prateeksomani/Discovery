@@ -29,6 +29,6 @@ public class FavouriteList {
 	@FindBy(xpath = "//div[@class='showTileSquare__content']")
 	public WebElement show;
 	
-	@FindBy(xpath="//span[contains(text(),'Watch')]")
-	public WebElement watch;
+	@FindBy(xpath="//div[@class='thumbnailTile__titleLineClamp']")
+	public WebElement videotitle;
 }
