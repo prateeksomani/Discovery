@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23286" started-at="2019-07-18T18:58:24Z" finished-at="2019-07-18T18:58:47Z">
+  <suite name="Default suite" duration-ms="73334" started-at="2019-07-20T01:58:02Z" finished-at="2019-07-20T01:59:16Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23286" started-at="2019-07-18T18:58:24Z" finished-at="2019-07-18T18:58:47Z">
+    <test name="Default test" duration-ms="73334" started-at="2019-07-20T01:58:02Z" finished-at="2019-07-20T01:59:16Z">
       <class name="Discovery.Discovery.NewTest1">
-        <test-method status="PASS" signature="setup()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="setup" is-config="true" duration-ms="22290" started-at="2019-07-19T00:28:24Z" finished-at="2019-07-19T00:28:46Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="setup" is-config="true" duration-ms="62631" started-at="2019-07-20T07:28:02Z" finished-at="2019-07-20T07:29:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="beforeMethod" is-config="true" duration-ms="14" started-at="2019-07-19T00:28:46Z" finished-at="2019-07-19T00:28:46Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="beforeMethod" is-config="true" duration-ms="17" started-at="2019-07-20T07:29:05Z" finished-at="2019-07-20T07:29:05Z">
           <params>
             <param index="0">
               <value>
@@ -22,19 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="f" duration-ms="7" started-at="2019-07-19T00:28:46Z" finished-at="2019-07-19T00:28:46Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="f" duration-ms="1140" started-at="2019-07-20T07:29:05Z" finished-at="2019-07-20T07:29:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-19T00:28:46Z" finished-at="2019-07-19T00:28:46Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-07-20T07:29:06Z" finished-at="2019-07-20T07:29:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="endtest" is-config="true" duration-ms="933" started-at="2019-07-19T00:28:46Z" finished-at="2019-07-19T00:28:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- endtest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-19T00:28:46Z" finished-at="2019-07-19T00:28:46Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-20T07:29:06Z" finished-at="2019-07-20T07:29:06Z">
           <params>
             <param index="0">
               <value>
@@ -45,6 +41,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endtest()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="endtest" is-config="true" duration-ms="9369" started-at="2019-07-20T07:29:06Z" finished-at="2019-07-20T07:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
       </class> <!-- Discovery.Discovery.NewTest1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

@@ -15,13 +15,16 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
 import com.test.automation.testBase.TestBase;
+import com.test.automation.objectrepo.*;
 
 public class NewTest1 extends TestBase{
-	
+	FavouriteList homepage;
 	public static Logger log=Logger.getLogger(NewTest1.class.getName());
   @Test
   public void f() {
 	  System.out.println("prateek");
+	  homepage = new FavouriteList(driver);//initializing driver through pagefactory
+	  homepage.lnkmore.click();
   }
   @BeforeTest
 	void setup() {

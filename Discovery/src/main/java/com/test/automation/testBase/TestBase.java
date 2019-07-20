@@ -24,7 +24,7 @@ public class TestBase {
 	public static ExtentReports extentReports;
 	public static ExtentTest test;
 	public WebDriver driver;
-	String url="http://automationpractice.com/index.php";
+	String url="https://www.discovery.com/";
 	String browser="chrome";
 	public static Logger log=Logger.getLogger(TestBase.class.getName());
 	static {
