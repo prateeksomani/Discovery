@@ -2,12 +2,12 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6366" started-at="2019-07-20T05:26:36Z" finished-at="2019-07-20T05:26:42Z">
+  <suite name="Default suite" duration-ms="6700" started-at="2019-07-20T06:33:48Z" finished-at="2019-07-20T06:33:55Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6366" started-at="2019-07-20T05:26:36Z" finished-at="2019-07-20T05:26:42Z">
-      <class name="Discovery.Discovery.NewTest1">
-        <test-method status="FAIL" signature="setup()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-20T10:56:36Z" finished-at="2019-07-20T10:56:36Z">
+    <test name="Default test" duration-ms="6700" started-at="2019-07-20T06:33:48Z" finished-at="2019-07-20T06:33:55Z">
+      <class name="Discovery.Discovery.FavVideo">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="setup" is-config="true" duration-ms="0" started-at="2019-07-20T12:03:48Z" finished-at="2019-07-20T12:03:48Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created
@@ -26,19 +26,7 @@ remote stacktrace: Backtrace:
 	Ordinal0 [0x00079ADC+432860]
 	Ordinal0 [0x00079674+431732]
 	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x00080AF5+461557]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007F44E+455758]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007DC4B+449611]
+	Ordinal0 [0x0007DC99+449689]
 	Ordinal0 [0x000795EC+431596]
 	Ordinal0 [0x0007A145+434501]
 	Ordinal0 [0x00079ADC+432860]
@@ -92,19 +80,7 @@ remote stacktrace: Backtrace:
 	Ordinal0 [0x00079ADC+432860]
 	Ordinal0 [0x00079674+431732]
 	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x00080AF5+461557]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007F44E+455758]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007DC4B+449611]
+	Ordinal0 [0x0007DC99+449689]
 	Ordinal0 [0x000795EC+431596]
 	Ordinal0 [0x0007A145+434501]
 	Ordinal0 [0x00079ADC+432860]
@@ -169,7 +145,7 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
 	at com.test.automation.testBase.TestBase.selectBrowser(TestBase.java:58)
 	at com.test.automation.testBase.TestBase.init(TestBase.java:47)
-	at Discovery.Discovery.NewTest1.setup(NewTest1.java:44)
+	at Discovery.Discovery.FavVideo.setup(FavVideo.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -199,11 +175,15 @@ remote stacktrace: Backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-20T10:56:42Z" finished-at="2019-07-20T10:56:42Z">
+        <test-method status="SKIP" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-07-20T12:03:55Z" finished-at="2019-07-20T12:03:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="f()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="f" duration-ms="0" started-at="2019-07-20T10:56:42Z" finished-at="2019-07-20T10:56:42Z">
+        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-20T12:03:55Z" finished-at="2019-07-20T12:03:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="SKIP" signature="f()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="f" duration-ms="0" started-at="2019-07-20T12:03:55Z" finished-at="2019-07-20T12:03:55Z">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[session not created
@@ -222,19 +202,7 @@ remote stacktrace: Backtrace:
 	Ordinal0 [0x00079ADC+432860]
 	Ordinal0 [0x00079674+431732]
 	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x00080AF5+461557]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007F44E+455758]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007DC4B+449611]
+	Ordinal0 [0x0007DC99+449689]
 	Ordinal0 [0x000795EC+431596]
 	Ordinal0 [0x0007A145+434501]
 	Ordinal0 [0x00079ADC+432860]
@@ -288,19 +256,7 @@ remote stacktrace: Backtrace:
 	Ordinal0 [0x00079ADC+432860]
 	Ordinal0 [0x00079674+431732]
 	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x00080AF5+461557]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007F44E+455758]
-	Ordinal0 [0x000795EC+431596]
-	Ordinal0 [0x0007A145+434501]
-	Ordinal0 [0x00079ADC+432860]
-	Ordinal0 [0x00079674+431732]
-	Ordinal0 [0x00079635+431669]
-	Ordinal0 [0x0007DC4B+449611]
+	Ordinal0 [0x0007DC99+449689]
 	Ordinal0 [0x000795EC+431596]
 	Ordinal0 [0x0007A145+434501]
 	Ordinal0 [0x00079ADC+432860]
@@ -365,7 +321,7 @@ remote stacktrace: Backtrace:
 	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:124)
 	at com.test.automation.testBase.TestBase.selectBrowser(TestBase.java:58)
 	at com.test.automation.testBase.TestBase.init(TestBase.java:47)
-	at Discovery.Discovery.NewTest1.setup(NewTest1.java:44)
+	at Discovery.Discovery.FavVideo.setup(FavVideo.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -395,19 +351,15 @@ remote stacktrace: Backtrace:
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-        <test-method status="SKIP" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-20T10:56:42Z" finished-at="2019-07-20T10:56:42Z">
+        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-20T12:03:55Z" finished-at="2019-07-20T12:03:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="endtest()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="endtest" is-config="true" duration-ms="0" started-at="2019-07-20T10:56:42Z" finished-at="2019-07-20T10:56:42Z">
+        <test-method status="PASS" signature="endtest()[pri:0, instance:Discovery.Discovery.FavVideo@11d0846]" name="endtest" is-config="true" duration-ms="0" started-at="2019-07-20T12:03:55Z" finished-at="2019-07-20T12:03:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endtest -->
-        <test-method status="SKIP" signature="afterMethod()[pri:0, instance:Discovery.Discovery.NewTest1@11d0846]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-07-20T10:56:42Z" finished-at="2019-07-20T10:56:42Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- Discovery.Discovery.NewTest1 -->
+      </class> <!-- Discovery.Discovery.FavVideo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

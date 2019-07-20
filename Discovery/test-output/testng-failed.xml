@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Discovery.Discovery.NewTest1">
+      <class name="Discovery.Discovery.FavVideo">
         <methods>
-          <include name="setup"/>
           <include name="endtest"/>
           <include name="f"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- Discovery.Discovery.NewTest1 -->
+      </class> <!-- Discovery.Discovery.FavVideo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

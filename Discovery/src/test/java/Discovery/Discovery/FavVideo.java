@@ -22,7 +22,7 @@ import com.test.automation.objectrepo.*;
 
 public class FavVideo extends TestBase{
 	FavouriteList homepage;
-	public static Logger log=Logger.getLogger(NewTest1.class.getName());
+	public static Logger log=Logger.getLogger(FavVideo.class.getName());
   @Test
   public void f() {
 	  System.out.println("prateek");

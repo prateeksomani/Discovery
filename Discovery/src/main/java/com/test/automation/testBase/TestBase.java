@@ -50,11 +50,13 @@ public class TestBase {
 		PropertyConfigurator.configure(log4jConfPath);
 	}
 	public void selectBrowser(String browser){
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
+		
 		if (browser.equalsIgnoreCase("firefox")) {
+			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "/drivers/geckodriver.exe");
 			driver = new FirefoxDriver();
 			
 		} else if(browser.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/drivers/chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 	}
