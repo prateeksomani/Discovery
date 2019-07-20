@@ -24,4 +24,7 @@ public class FavouriteList {
 
 	@FindBy(xpath = "//a[contains(text(),'My Videos')]")
 	public WebElement lnkmyvideos;
+	
+	@FindBy(xpath = "//span[contains(text(),'Add to Favorites')]")
+	public WebElement lnkvideos;
 }

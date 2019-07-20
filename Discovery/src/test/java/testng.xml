@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="Discovery.Discovery.NewTest1"/>
+      <class name="Discovery.Discovery.FavVideo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
